@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+}
+
+*::selection{
+	background-color: yellow;
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	background-color: yellow;
+}
+
+aside{
+	padding: 2rem;
+	padding-right: 0;
+	color: grey;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+main{
+	background-color: white;
+	margin: 1rem;
+	margin-left: 0;
+	border-radius: 2rem;
+	padding: 2rem;
+}
+
+.logo{
+	font-weight: 400;
+	font-size: 1.3rem;
+}
+
+.texto-footer{
+	color: grey;
+	font-size: .85rem;
+}
+
+.titulo-principal{
+	color: violet;
+	margin-bottom: 2rem;
+}
+
+.producto-imagen{
+	max-width: 100%;
+	border-radius: 1rem;
+}
+
+.introduccion{
+	margin-bottom: 1rem;
+	font-size: .90rem;
+}
+
+h4{
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+h3{
+	color: violet;
+	margin-bottom: 2rem;
+}
